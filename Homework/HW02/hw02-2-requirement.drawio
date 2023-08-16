@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-        <mxGraphModel dx="2765" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2852" dy="1518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
@@ -269,7 +269,7 @@
                 <mxCell id="31" value="" style="edgeStyle=none;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="26" target="30">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="26" target="35">
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;startArrow=none;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="64" target="35">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="ลูกค้าตกลงเซ็นสัญญาหรือไม่?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
@@ -327,7 +327,7 @@
                 <mxCell id="49" value="" style="edgeStyle=none;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="47" target="48">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="" style="edgeStyle=none;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="47" target="50">
+                <mxCell id="51" value="" style="edgeStyle=none;html=1;startArrow=none;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="66" target="50">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" value="ลูกค้ามีความต้องการที่จะปรับแก้งานหรือไหม?" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
@@ -364,19 +364,40 @@
                 <mxCell id="59" value="ให้ลูกค้าจ่ายเงินเต็มจำนวน" style="whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
                     <mxGeometry x="910" y="440" width="120" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="64" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+                    <mxGeometry x="189.25" y="1213" width="21.5" height="21.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="edgeStyle=none;html=1;endArrow=none;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="26" target="64">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-540" y="1730" as="sourcePoint"/>
+                        <mxPoint x="-540" y="1780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="30" target="64">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="1230" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="450" y="1224"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="" style="edgeStyle=none;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="66" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+                    <mxGeometry x="960" y="200" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="edgeStyle=none;html=1;endArrow=none;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="47" target="66">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="720" as="sourcePoint"/>
+                        <mxPoint x="230" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="mvioNwK95yMqdUQ73LqQ-70" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;โจทย์ปัญหา&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
                     <mxGeometry x="-732.5" y="320" width="675" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="mvioNwK95yMqdUQ73LqQ-71" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;u&gt;โจทย์&lt;/u&gt;&lt;/b&gt; จงเขียน Flowchart เพื่ออธิบายกระบวนการในการรับงานทำเว็บไซต์จากลูกค้า&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (ดูตัวอย่างได้จากเว็บไซท์ https://www.fastwork.com)&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font face=&quot;Sarabun&quot;&gt;&lt;b&gt;&lt;u&gt;หมายเหตุ&lt;/u&gt;&lt;/b&gt;&amp;nbsp;ควรมีขั้นตอนครบถ้วน เปรียบเสมือนตัวคุณเอง ที่กำลังอยากเริ่มต้นรับงานทำเว็บไซต์จากลูกค้าของคุณเอง&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; คุณจะต้องคำนึงถึงขั้นตอนทุกอย่างให้รอบคอบตั้งแต่การโพสหางาน การพูดคุยเพื่อคัดกรองลูกค้า&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; การพูดคุยเรื่องความต้องการของลูกค้าเป็นข้อๆให้ชัดเจน การเซ็นต์สัญญารับงาน การรับเงินล่วงหน้าก่อน ฯลฯ&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font face=&quot;Sarabun&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="mvioNwK95yMqdUQ73LqQ-70" vertex="1">
                     <mxGeometry x="22.5" y="-60" width="660" height="200" as="geometry"/>
-                </mxCell>
-                <mxCell id="37" style="edgeStyle=none;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="30">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-520" y="1760" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="-288" y="1760"/>
-                        </Array>
-                    </mxGeometry>
                 </mxCell>
                 <mxCell id="58" style="edgeStyle=none;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="56">
                     <mxGeometry relative="1" as="geometry">
